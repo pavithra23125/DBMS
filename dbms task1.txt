@@ -1,9 +1,0 @@
-
-SQL> CREATE TABLE employees (
-  2      emp_id INT PRIMARY KEY,
-  3      name VARCHAR(100) NOT NULL,
-  4      email VARCHAR(100) UNIQUE,
-  5      age INT CHECK (age >= 18)
-  6  );
-
-Table created.
